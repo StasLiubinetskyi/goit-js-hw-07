@@ -30,7 +30,7 @@ function renderGalleryItems() {
 }
 
 function openModal(event) {
-  event.preventDefault(); // Заборона перенаправлення при кліку на зображення
+  event.preventDefault(); 
   const imageSource = event.target.dataset.source;
   const modalContent = `<img src="${imageSource}" alt="" />`;
   modalInstance = basicLightbox.create(modalContent);
