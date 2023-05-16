@@ -27,7 +27,6 @@ function renderGalleryItems() {
 
 renderGalleryItems();
 
-// Ініціалізація SimpleLightbox після створення і додання елементів галереї
 const gallery = new SimpleLightbox(".gallery__item a", {
   captions: true,
   captionDelay: 250,
